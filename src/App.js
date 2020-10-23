@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./Header";
-import Cards from "./TinderCard";
+import TinderCard from "./TinderCard";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
 
@@ -10,8 +10,8 @@ function App() {
   <Header />
     <Router>
       <Switch>
-        <Route path="/card">
-           <Cards /> 
+        <Route path="/tinderCard">
+           <TinderCard /> 
         </Route>
         <Route path="/">
         </Route>
